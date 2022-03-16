@@ -29,6 +29,7 @@
     "prettier": "^2.6.0"
   },
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "tslog": "^3.3.2"
   }
 }
