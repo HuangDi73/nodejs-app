@@ -23,8 +23,8 @@ export class BaseController {
 		return this.send<T>(res, 200, message);
 	}
 
-	public created(res: Response): ExpressReturnType {
-		return res.status(201).json('User was created!');
+	public created<T>(res: Response, message: T): ExpressReturnType {
+		return res.status(201).json(message);
 	}
 
 	protected bindRoutes(routes: IControllerRoutes[]): void {
