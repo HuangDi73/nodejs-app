@@ -29,6 +29,7 @@
     "prettier": "^2.6.0"
   },
   "dependencies": {
+    "body-parser": "^1.19.2",
     "express": "^4.17.3",
     "inversify": "^6.0.1",
     "reflect-metadata": "^0.1.13",
